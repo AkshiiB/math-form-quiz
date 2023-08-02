@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="start-page">
+            <h1>Welcome to the Math Quiz</h1>
+            <button class="start-button" id="startButton">Start Quiz</button>
+        </div>
+
+        <div class="rules-page" style="display: none;">
+            <h2>Rules of the Test</h2>
+            <ul>
+                <li>You will have 15 seconds per question</li>
+                <li>You cannot revisit past questions</li>
+                <li>You cannot exit the quiz when you're playing</li>
+                <li>You will get 1 point for every right answer</li>
+            </ul>
+            <button class="continue-button" id="continueButton">Start Quiz</button>
+        </div>
+
+        <div class="google-form-container" style="display: none;">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSet1QivUMdKbgmq10sVFJ7NLUlR5A29_idhQIsn7XJOxKHwGw/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <button class="back-button" id="backButton">Back to Quiz</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
